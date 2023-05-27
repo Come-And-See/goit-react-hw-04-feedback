@@ -2,15 +2,16 @@ import styled from 'styled-components';
 
 export const Button = styled.button`
   border: 1px solid #000;
-  margin-right: 10px;
+
   border-radius: 5px;
   padding: 10px;
+  width: 30%;
   cursor: pointer;
   &:hover {
-    background: #75be1f;
+    background: #182bc8;
+    color: #fff;
   }
 `;
-
 
 export const DivAll = styled.div`
   border: 1px solid #000;
@@ -20,5 +21,4 @@ export const DivAll = styled.div`
   text-align: center;
   margin: 50px auto;
   border-radius: 15px;
-
 `;
